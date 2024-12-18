@@ -1,0 +1,26 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-calendar {
+  width: 100% !important;
+  border: none !important;
+  background: white !important;
+  font-family: inherit !important;
+  line-height: 1.125em;
+}
+
+.react-calendar button {
+  border-radius: 0.5rem;
+  margin: 2px;
+}
+
+.react-calendar button:hover {
+  background-color: #e0e7ff !important;
+}
+
+.react-calendar__tile--active {
+  background-color: #4f46e5 !important;
+  color: white !important;
+}
